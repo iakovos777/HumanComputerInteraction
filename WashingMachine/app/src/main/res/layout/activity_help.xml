@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iakovos.washingmachine.HelpActivity"
+    android:background="@drawable/bubble1">
+
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="202dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="375dp"
+        android:layout_marginRight="375dp"
+        android:layout_marginLeft="385dp"
+        android:layout_marginStart="385dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/border_of_button"
+        android:text="@string/close_help"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="174dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="386dp"
+        android:layout_marginRight="386dp"
+        android:layout_marginLeft="401dp"
+        android:layout_marginStart="401dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/help2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="879dp"
+        android:layout_height="348dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="9dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/closeBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:text="@string/help_text" />
+</android.support.constraint.ConstraintLayout>

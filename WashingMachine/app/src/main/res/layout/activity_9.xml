@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iakovos.washingmachine.Activity9"
+    android:background="@drawable/bubble1">
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="157dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="106dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/border_of_button"
+        android:text="@string/no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="157dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="121dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginStart="396dp"
+        android:layout_marginLeft="396dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/border_of_button"
+        android:text="@string/yes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button27"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="737dp"
+        android:layout_height="111dp"
+        android:layout_marginBottom="240dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginLeft="151dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/do_you_want_more"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="26sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="336dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="34dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginRight="301dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/before_the_end"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="64dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="474dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:background="@drawable/border_of_button"
+        android:contentDescription="@string/help"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Washing Machine Ecoboost</string>
+    <string name="economical_use">Economical use</string>
+    <string name="normal_use">Normal Use</string>
+    <string name="insert_clothes_in_the_washing_machine_and_place_the_detergent_on_the_specially_formed_recess">Insert clothes in the washing machine and place the detergent on the specially formed recess</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="choose_the_color_of_program">Choose the color of program</string>
+    <string name="colorful_clothes">Colorful clothes</string>
+    <string name="black_clothes">Black clothes</string>
+    <string name="white_clothes">White clothes</string>
+    <string name="step_1">Step 1 </string>
+    <string name="step_2">Step 2 </string>
+    <string name="step_3">Step 3 </string>
+    <string name="step_4">Step 4 </string>
+    <string name="step_5">Step 5 </string>
+    <string name="step_6">Step 6 </string>
+    <string name="step_7">Step 7 </string>
+    <string name="step_3_choose_program">Step 3: Choose program</string>
+    <string name="step_4_text">Step 4: Choose settings</string>
+    <string name="step_5_text">Step 5: Advanced settings</string>
+    <string name="step_2_text">Step 2: Choose colour</string>
+    <string name="select_type_of_cloth">Select type of cloth</string>
+    <string name="cotton">Cotton</string>
+    <string name="silk">Silk</string>
+    <string name="synthetically">Synthetically</string>
+    <string name="back2"><![CDATA[< BACK]]></string>
+    <string name="reset_options">Reset Options</string>
+    <string name="predetermined_temperature_and_spins">Predetermined temperature and spins</string>
+    <string name="my_programs">My programs</string>
+    <string name="advanced_settings">Advanced settings</string>
+    <string name="duration_of_laundry">Duration of laundry :</string>
+    <string name="duration">Duration(in minutes)</string>
+    <string name="time_of_start">Time of start</string>
+    <string name="time">Time</string>
+    <string name="temperature">Temperature(in Celsius)</string>
+    <string name="spins">Spins</string>
+    <string name="save">Save</string>
+    <string name="start">Start</string>
+    <string name="finish">FINISH</string>
+    <string name="pause">PAUSE</string>
+    <string name="open_door">Open door</string>
+    <string name="stages_of_laundry">Stages of laundry</string>
+    <string name="_00_00">00:00</string>
+    <string name="delete">DELETE</string>
+    <string name="now">NOW</string>
+    <string name="set_time">SET TIME</string>
+    <string name="time_to_start_washing_machine">SET TIME TO START WASHING MACHINE</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="do_you_want_more">Do you want to strain again your clothes ?</string>
+    <string name="before_the_end">Before the end</string>
+    <string name="step_1_put_clothes_and_detergent">STEP 1 : PUT CLOTHES AND DETERGENT</string>
+    <string name="help">help</string>
+    <string name="step_6_text">Step 6: My programs</string>
+    <string name="step_7_text">Step 7: Set time to begin the washing machine</string>
+    <string name="close_help">Close help</string>
+    <string name="help2">HELP</string>
+    <string name="help_text">1) ? Button : Help 2)Reset options button : delete all my saved programs 3)Predetermined settings button: set the temperature 60 Celsius degrees and spins to 600 4) My programs button: View all your saved programs 5)Now button: Start the fuction of washing machine in current time 6) Set time button: set time in order to start the function of washing machine 7) Open door button: It cannot be pushed unless the user has been pressed the button PAUSE 8) PAUSE button : pause the function of washing machine 9)Finish button: End the function of washing machine</string>
+
+
+    <!--
+        Auto-complete suggestions for spin field
+    -->
+    <string-array name="spins_array">
+        <item>1300</item>
+        <item>900</item>
+        <item>600</item>
+        <item>400</item>
+    </string-array>
+
+
+    <!--
+       Auto-complete suggestions for temperature field
+   -->
+    <string-array name="temperature_array">
+        <item>90</item>
+        <item>60</item>
+        <item>30</item>
+        <item>20</item>
+    </string-array>
+
+    <!--
+       Auto-complete suggestions for duration field
+   -->
+    <string-array name="duration_array">
+        <item>60</item>
+        <item>30</item>
+        <item>20</item>
+    </string-array>
+</resources>

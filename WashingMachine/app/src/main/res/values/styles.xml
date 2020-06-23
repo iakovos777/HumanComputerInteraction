@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Custom application theme. -->
+    <color name="custom_thene_color">#b0b0ff</color>
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/custom_thene_color</item>
+        <item name="android:colorBackground">@color/custom_thene_color</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--Custom progressBar. -->
+    <style name="CustomProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <!-- Customize your theme here. -->
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/custom_progress_bar_horizontal</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:minWidth">200dp</item>
+    </style>
+
+    <!--Custom progressBar. -->
+    <style name="CustomProgressBar2" parent="android:Widget.ProgressBar.Horizontal">
+        <!-- Customize your theme here. -->
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/custom_progress</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:minWidth">200dp</item>
+    </style>
+
+    <!-- Custom application theme. -->
+    <color name="custom_thene_color2">#2783de</color>
+    <color name="custom_thene_color3">#0582ff</color>
+    <style name="CustomTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/custom_thene_color2</item>
+        <item name="android:colorBackground">@color/custom_thene_color3</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+</resources>
